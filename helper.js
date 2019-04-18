@@ -11,7 +11,7 @@ console.log(today);
 $("#main-header").click(function(){
       console.log("Получение getJSON из 2го сервера")
 
-       url = "http://sf-pyw.mosyag.in/m04/api/forecasts";
+       url = "https://sf-pyw.mosyag.in/m04/api/forecasts";
       $.getJSON(url, function(data) {
         console.log(data)
         paragraphs=data["prophecies"]
